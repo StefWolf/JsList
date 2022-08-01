@@ -2,14 +2,14 @@
 
 ## problems solved:
 
-[x] - olaMundo
-[x] - mediaNotas
-[x] - quadradoNumber
-[ ] - maiorNumber
-[ ] - maioresIdade
-[ ] - sexAlturaPessoas
-[ ] - nomesInvertidos
-[ ] - usuarioDate
+- [x] olaMundo
+- [x] mediaNotas
+- [x] quadradoNumber
+- [ ] maiorNumber
+- [ ] maioresIdade
+- [ ] sexAlturaPessoas
+- [ ] nomesInvertidos
+- [ ] usuarioDate
 
 ## compilation:
 

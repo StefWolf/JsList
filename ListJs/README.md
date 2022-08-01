@@ -5,8 +5,8 @@
 - [x] olaMundo
 - [x] mediaNotas
 - [x] quadradoNumber
-- [ ] maiorNumber
-- [ ] maioresIdade
+- [x] maiorNumber
+- [x] maioresIdade
 - [ ] sexAlturaPessoas
 - [ ] nomesInvertidos
 - [ ] usuarioDate

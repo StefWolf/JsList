@@ -7,7 +7,7 @@
 - [x] quadradoNumber
 - [x] maiorNumber
 - [x] maioresIdade
-- [ ] sexAlturaPessoas
+- [x] sexAlturaPessoas
 - [ ] nomesInvertidos
 - [ ] usuarioDate
 

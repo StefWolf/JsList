@@ -1,8 +1,8 @@
-var idadeMenor = 0;
-var idadeMaior = 0;
+let idadeMenor = 0;
+let idadeMaior = 0;
 
 function addIdade(){
-    var idade = parseInt(document.getElementById('Idade').value);
+    const idade = parseInt(document.getElementById('Idade').value);
     if(idade < 18){
         idadeMenor++;
     } else {

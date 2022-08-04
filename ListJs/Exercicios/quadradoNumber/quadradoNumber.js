@@ -1,5 +1,5 @@
 function quadrado(){
-    var n = [];
+    const n = [];
 
     n.push((document.getElementById('n1').value)*(document.getElementById('n1').value));
     n.push((document.getElementById('n2').value)*(document.getElementById('n2').value));

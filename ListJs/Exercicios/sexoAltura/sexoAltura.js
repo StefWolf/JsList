@@ -1,16 +1,17 @@
-var cont = 0;
-var F = 0; //feminino
-var M = 0; //masculino
-var S = [];
-var altura = [];
+let cont = 0;
+let F = 0; //feminino
+let M = 0; //masculino
+const S = [];
+const altura = [];
 
+//ATIVIDADE AINDA EM DESENVOLVIMENTO!
 function processarPessoas(){
-    var sex = toString(document.getElementById('sexo').value);
+    let sex = document.getElementById('sexo');
     cont++;
-    if(sex = "feminino"){
+    if(sex.value == 'F'){
         F++;
         S.push('F');
-    } else if(sex = "masculino"){
+    } else if(sex.value == 'M'){
         M++;
         S.push('M');
     }
@@ -18,13 +19,13 @@ function processarPessoas(){
     var tail = parseFloat(document.getElementById('altura').value);
     altura.push(tail);
 
-    cont >=5 ? processDados() : document.querySelector("result").innerHTML = "Continue add...";
+    cont >=5 ? processDados() : document.querySelector("#result").innerHTML = "Continue add...";
 }
 
 function processDados(){
-    var maior = 0;
-    var contador = 0;
-    var id;
+    let maior = 0;
+    let contador = 0;
+    let id;
 
     altura.map((tail) => {
       if(maior < tail){
@@ -32,6 +33,7 @@ function processDados(){
         id = contador;
       }
       contador++;
+      console.warn(S.length);
     });
 
     document.querySelector("#result").innerHTML = "Masculinos: "+M+" | Femininos: "+F+" <br /> Maior altura: "+maior+" | Sexo: "+S[id];

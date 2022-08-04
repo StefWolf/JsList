@@ -1,9 +1,9 @@
-var cont = 0;
-var num = [];
+let cont = 0;
+let num = [];
 
 function maiorN(){
     cont++;
-    var n = parseInt(document.getElementById('valueN').value);
+    const n = parseInt(document.getElementById('valueN').value);
     num.push(n);
 
     cont >= 5 ? showLarger() : 
@@ -11,7 +11,7 @@ function maiorN(){
 }
 
 function showLarger(){
-    var result = 0;
+    let result = 0;
     num.map((n) => {
         if(result < n){
             result = n;
